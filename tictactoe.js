@@ -15,7 +15,7 @@ else{
     box.innerText="O";
     turnX=true;
 }
-box.diabled=true;
+box.disabled=true;
 checkWinner();
 });
 });
@@ -26,12 +26,12 @@ const resetGame=()=>{
 };
 const disableBoxes=()=>{
     for(let box of boxes){
-        box.disable=true;
+        box.disabled=true;
     }
 };
 const enableBoxes=()=>{
     for(let box of boxes){
-        box.disable=false;
+        box.disabled=false;
         box.innerText="";
     }
 };
